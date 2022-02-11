@@ -1,0 +1,13 @@
+application:
+  name: project-ga
+
+server:
+  port: 10001
+
+spring:
+  profiles:
+    include:
+      - db
+      - oauth
+  session:
+    store-type: jdbc
